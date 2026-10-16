@@ -131,6 +131,8 @@ p { margin: 0; }
 .etat svg { flex: none; margin-top: 3px; }
 .etat .t { font-weight: 650; }
 .etat .s { font-size: 0.88rem; color: var(--ink-2); }
+.attente { color: var(--muted); }
+.vide { margin-top: 14px; padding: 14px 16px; border: 1px dashed var(--grid); border-radius: 12px; color: var(--ink-2); }
 .ok { color: var(--good-ink); } .vig { color: var(--warn-ink); } .alerte { color: var(--crit-ink); }
 
 /* Listes */
@@ -213,7 +215,7 @@ th:first-child, td:first-child { position: sticky; left: 0; background: var(--su
   </div>
 </main>
 <div class="bulle" id="bulle" role="tooltip"></div>
-<script id="donnees" type="application/octet-stream">D3mKg-xQ5qhjyuL12SR1yQpCS5nzQEmoIyN_Uc-2ykCzez8RYCAfx07gvlZ6fRQvi3aTh0kFdcRUI--VgTKRaGzVWveEHeKkFMm85u5252FxS2NxGRrRtZ7qfkhYm_pdes0nJ5fHm3odwaJRT3o-YmxEOou4Ddb204ypeTORfIFnGlEFkutLLbpeSvAzanqjt_Cof1jOW_Cn2P_WC7urzZ5_oLXrwP0IQRyWHyNRLh4yCpwASirI2VlU30sBH2iFT0f4-4wlk3ORx66lF7vHJG_R4Xwcx_rOmcuQqrjjHfmNXiJPKjzc3u6FamhJavsvcFVM7mxn8WRmi0RHcB9JRfkkybp_BwrS54ILK4BUwrN_8DO7IGGTQ7C-SmzLQ6et0JDFNPe_Tlx0Bf7IuM33ytDFZJduGFTOh-nY9oCdwF34V_xpx8IR6FuHjFXWPHB67FrW81Gt3kwWGQenRQ43-Wc20i2Vi3FT0dPkyXY9uSTw9VPO-XX3eMo6IjkfMIQtngvIGiuiLe-EJ9aNkHscAXI9j8uiIKNcA9EDpbx-47juUTBFFtVRf4sd0oM2XnM66nuXBbmr19xRNegVKdz2XgAN5XmTV5vNrRolIjNWbitTZYQL8sjjlWJzzLjAQbBGAS6ssjzXTvJzNixDpMZe6F3dINMOaVSXXOGH_BUOdeq8wBixYj3jctBijdhYVeTF3OYM_VZN_3js8GVbxkMgKixpwZFyYgO_O2B7s494KlnwRa5NG5LwA1BqbKBzqHTLOlPXFEIfSS1t6V-Y1lIz_kz1X7pKfMehEyuJZ43wZ6bPBHf38KkS3RiSuCLcAQoIxrV_2tPED_1rFt88VWuXxiB1g9K88Rf8Ak5QNDDQ6cCsFPnucLgHzRK9IXGkHa4BiwU95dohR404tf7Y29ozpUOizi2dazvnbBh5T6nV24oVHfLHcFZrpGr9qPU7Z7WgIP6iNXY8ErjKTJ6TZS1UruLk22pi1dUIrpWJXR4wS_wXJqXWu33C79Eif-v6EbKGCFHR7Cih4UuGb8tr7v2Of3PxWflpn3KCJ3jGJs8oNRQIvioZQMToUITpXB1bS7jwr0ceKyZC5w70cOUF2cIoRAJbF-_Tqq0rrs57pjNHXxHPPYk2DRp-1q7wGYMw6lp4jSy_jeDgcfAZPBm58BZfGYxjASvymzEVUNGc7UKyLFjxB6a2sfWpym66O6hcvJNEaQ5hqZPmxapOdsYGRt-b7YvkvH0PVs9Or4Q0mrWkmjH0fbNNRafh193xn1NsI6RCGEwLa1rQrIAbhsIS1m-CeLdnjXRQCuIzD5pF0p1TJhQtjnAzEwKkmeYCiA8UhWzxxUwTX5JX_gI6hQNtpAbd1ircmlwkNM1EhSCbaqxtcUuaodrrc5VIeuF1DsLSxOUbBdPo_EGCutSJpVH9SGpDFT8QoDw1XByqhlZsyF0UvUsVnrfZ8pt6g_anyIxLlbJXt2wZEDQWs98mpPZ6nzgORfcjaxguOioJx2kK37ZQOV2580lRq7WkL-YxsFGwh_rv3pUE5l2LC3Uy8_JBA_eFEjbPiSXzH2lg_9MmMmgzPaDejPVlWgh-fW0BBs015FGVOGNhDBFe5tiQ2BiZS6_oOxr7VUOyBQUPPbCLkNRDX4boSFrk3K37SiGS2Qk0nLjl1ZbZP5W4kIBQSHRTY7fJHXv_uC35qwUOwWaDKkDWgruNei-RTo9D39ORHoX_KBYwChI-V5k53UcocLS9bM1Ha4ycom6jU8npxw_cdAkRqV6c4XVz-QcxPQvmmRFwTsPFj9OURU-U0hJ4zjx1qTjzQSaKyQ9XjRlNYvB1GInONHx-gATzWHjgACtby5tI0VALf5N94YoHjL5TyPfzEb7Gd_6cCqAwWqYyR5nPvOuP7FZj1Kg1PsSCrCkOIa0ROBQmWOtOQD7Qv0UZrrUaxZEYAKDkdGcqJg56ORuo7fhvGHcYxOkb3XSdzHRi3M_0QvoctZ1frC2DTi--Da5zv-EVgMG3ybB8CkPY9O8qhW772f7ZaVB2fdrWotKft9niA7vptMxRN3ljUCUTymfR3H54VOmXSSgd2hJ6KCkDZYQka0GvBpkP-sg8m6fgxWYNkXnaGmiwE82nWViVGZCMCpXq4BEFhdKWBfXU6B8B5ifemaTGXMKG7MfP40PVKdUAB6vAfdOtizNzm4Z2o02gcNLAp4bpiEIKcMNrwst-5JuAbzgChL_b4J2Vv1S-Ch_PFYVWWah-2gWO1l5Tr5mhEK7LUNO65OdmW0mV8NneHoqITtAJxht9E0Q5n2LLdvBf-VRGBwpEDYOwwyUymqVpdDzxVSjJOq-EtOaup0TKZ4GIT_XJV1WuvIC0obZA4WDUEwVngOfduud_Ddv4550R8mnPCWI40N9YD5xaKd4mNlxPq9TIZBC1CxkXbKNtA8brNyPzg2pBJkNLoprqEnBR5DV8UjapcXNHDqei4Mfyd35KlxFYsVj9aQtqQWkVYuW5yfuf7feF7tf3pdjT_QNy2wPF-ZBVAnozUnBFt1iIqnxWMvDsQPsHguoqU4pkLgOkD3gUIOwEjmX2o00htoqs72pClq1zRVF9lTW52jVfzsLbPA1MZLuG8iWOnkbN3yC_q0EdQahuaITclcQihmh2A9xAbQFgfoa8SONgBQ0VRU7x6y5__erQAthG4RzZ7tqtc26mh4viURsL9xmugPTyBoDppuxPbcP_mxosjSre5LicHMltByzbCwaPpP2EQCjJ0kPtDKNUTpomWJHslEpcweHQF35qZnn31pRVzeEZoSEDMakNm-ZacPlCjFOAIAimjuDtBZq319BSsLRQEHmGvnlZyRUDXbjzX7YjXRTqTEiSYt0Zochvv4tWwaWtEkOY5hsvQi0ufWnYthBJeBFNWXo_i0IeACCg6ywbWujgfPw8AD5PyZ3lTGKf2GZ7sWmH2z8hDA51bAqtLkcsrOdWHnTsfUgaJ3872wOTzDm5C3PFLSOqeAB8f4NB_JRXiU5yjnBJoWEZq_3XH-cRIXbp02QBlnAzhIczxneU-SL7UZqyXKpg9JUCzKZt1w03SsO7bgHMBQMfvPrN_AZD4Svhal1tPoe2GNIdP9A0E8eE1aMIWZdIdePC47DBeDxdZ3oekepoQ69rYjaw_fUSOhM0xqBoenzEllnWCDTEjxsmxqmqtusYyoW1rOtaXpQORJ5nknfyZmo10E8zjxDfdIy-x5b2t4j4KtUngGY7Qx1RlMbgV5rRcomr6xBQlYQJ3BUUaQeAOvaGt0M1NmhOTZmz-jFddBtTsFR-Urlh-Kf8J8_xXhfnfwYDTfgqgRN1tfwWPEEiz3tZTAc08EcNjkai0a2MrNvBPNMHXEC3_TPyI6yvURocbj4FIvFpRGmhgpg7KTgOzys6_daQ3-0odL_vJRRpJ9boQt4tQSIpm7j8SDf_fdABJA_HGIh5E4Sb6pWyDn7P150Hbzee_3Gmk6Q7cH42gZzG7QK3Rl93wcM3aZgL0_bYEdw5gyNHr4iYxZPTJFNnrpurVmhY0B92QIvTOETcXsretm7eBlBTEMIaMrvTd0LjYWujmdezNd1ww77vLIDUr6C5_V7iSmxnVqbWsJpuhI6Kx4E3Xed2cDpKFPA-q74ey_QjKPABBhLGSCuUEao14Z-aWGeZUu70IufUyC9BwCfoNdE307jJ7e9AENVt8e3tzHxxFJviqX3qjux7HH_sxTxqk-6erXaOv5TBrbaEDK2T7fnC3DPLfHjSeK-Q7iWvMerhpyP6BBDFfZy3j-iUeBvyerCNVcYyN3a1Phh2MuTY6ObH6Lo-2e5Vdf5zEgEwCFSbFfCilwO3rPWxO1W85ebIminB49o9hHWKc_jo8a7JiC0CtcL-P5utwO2YGsAvAJLxJUMyQIT_4TkDfZ7eL0rL2A1VrXbFIO9Zy9pok9eV-MeA1YBedkvUr094KQujMWYMQBPKVL7DDenzI06QRmTY1aRDUQ8TO6drnbZR6am4hGVckFWf3n5p5PQOp6m2KqzMJ23WO_tLmMQdufSKQvr6xe_lfhihSd2n2ZK_dCyzSPouWWW8c9aR1Qt07mh8_Zt0He7gMDp1NgNflM9yQF8q2c3iZ8TuKT6SoDPPHBu0Ch-y2enEEFfDIgn_P2Zs9od3bCDhppnht4ljJeszc6YjRxb7IUMDk7UAMInDUNBp0Pl0HPQf4q3SD-g629XY994vWuir8Mvm3ImmgioHYJYZ57lmlduorjOfF5xgDFQWU6dUrfRz1tkKyQ-kp387PMobP2jjGHN6Jt1mT9SBpHcJ2FAKJz5MEwLfcwUXK9CrlhvRWOwzmEXdtIVOo4F2zCzeZxRCXfprzK12vpKr5SP3H4mDu2UnXb1JWJpeYZiirnpI55gc18Hm_A9RT0gV7eKcyVrhdf4I3iRy6lyG6qHhOUBukDh4N-S2r5AsY3S0pp4_TfDPboOOoHLztdhVbvkpBlQ7tPLgTMmqvLsOwzhdOHRP9N_G3BIIQ1H5YiXYZ8D7vaD4AlNgrEbZa2dixkuKcCdQVfOm6vTOC_-soF-1Q-CVvwidaotHBmBlIfVxodKgJRkF8tpEeGLvQBGAbAdRj6FJub7ti-XNIUYJ1_TGa-62pWPXZntgBo3Zdu92rj1ZmkWFVNVk6DZPlgcyvtpxHJwrGNvLO8Rt_pNcAorMK0hbbIu8HEntPl13sHJ3Ll9A1hhM5nAgfN9xLFdssnSW_memDsdW1bgDZNCwRnbjlip9rnFmeMwB6C3BC86m2cFALgMTnGtmg4cO7_gJkcAiOXlJJ4p5QsPsgxslg1m7PiL5Tk-fc7QQdYlDyzNKkCckfW2u3-KpwmTIa4WxBJdz_JPP_iDdFfWLKppYS_8OIUuVMsniqpO8YOWzzwgwAHRJUKeAwHUmSrdgcse-qVa8wLqein4KU5zQLaZEp2bqGEsP1YjgZ8tD-eEkhPmMgWORs80ZlsmjUnCByUEAP3DkRswLCVW3jKEaT97lZwj-LlKMBWJz8H5YCnj3MFu7jtvl45iGlqRIN2Fx5Nk-eCJkeMINr-SHyVtzflXiW_ubu9n7ljgaZ-w2TnSRVLrbuzbp32IgzpYS9JaUBdt2Byuild-cimLQsuS8ljK1yh_4pzHfDL9sko0RWzRnd39HVEx_udwe3cX2oE4lvs7dVqxCpm4o7WdpAklOcK8GDQtcLXj4aEHFOYY9JCZ6NzhMKCYaTjTJscG5IxtK_9CNfEbkoqj2VFFIC-YM8516BsoKrWg4dt2gbS9GacKDSeK9miUtRlyM3OhyCKFnpDUjFkhd5rTeFnkRJDPahQJBvV_AcMH8KVuteOxhwTl4Y0cn7X4WKIaEJe7Q8SU</script>
+<script id="donnees" type="application/octet-stream">kdEL5MzaJbmRKyBq45rRbP0I23ujH7rjOUFpGTKBtNoro21j_1h7E-Ru1KfUdQRIjllR3fZ92cWMjukNy5TKc_2ftjsRuhamOVoEwsep_gXp7K58QsqtX4lhgaipaxuitbVxpbkKj_c2rd5oWNfZWPCgw2fpekeJosdYXDB0sWgQBvCpz8FHoXvNAyS22ke7hwZoXkXhC1hjMkWb84K9nO-skB8iG2yc6QcZrBxAnPHG7mZ43-npX4qGw3C1RscJ8vIBzSdR4t4o1hr02wUkYGxHGMGpTY_gaS-7nM-6llfhrDqE2JVTas05b2fAe-e8HrEoIFVElEC3CLmd-Vy-IxHdMoGt1n-SjVqdTky0lmLwKP_3q3MnLXGQdWKH5EuTYiQIKE_7J2pTM9CoZPkCh7IiVA990pOOrMkJVsAglry2Ht8yNqwGQ0q7cRuAOUwxi_W7yrPuaEEoRO0K1on6SMbLy0ZcxzMLoUz96HfvKhSu-ONMb9yBveeJha-7F7oh3zvRppuNvNorSI9GMfKQwrlUIUtQLTWrCLwV16jG5Gpx01jZ_lsc9mwr-AMuKxkIN_PhJnQvJLSPTuNpHjPOyR8nZjMnl3quCfN3MwFeh6Qzj3f7KEBi0YszCGQJSyOSUeJ2Xc_SVnl-bBKfZ-RXpU6Q3dJ3whVrXcTXzGL2uAuS3RSSVtG4Fbr6Me-zBY6hneM0444ig6bkZzRkvSDUSvECmtgPLdrSaXL6UvUNLAXyA5j7iHMpS2iDf-3uWf1-3khAoRBFPLNQHRhQ6dpcGpDnB1EjncEMculU1DbWIVrOTcoABr8COc7BO7zjqH8J3u4nNNj7yeQJ6aNhgoS9SMFhuzckEbz9YTTXWHnrpxsT2_KiNugJ998wV9SReMTxMX2RAwRIlVHYq-duUZOc61XYTx6w-9_bqkkckIEJF14qKA5mCB9DTa19HEFMYBbZFhqPsrNhwLPv4zXB8okFqD4JT4ig0fPfe7WCfXVrrnlZ3_vLgLC2ObXvt1a4fw7-Z7WduL4HPdkvOV_MTY459nnhMS7w9-vQHoAg-FH1u3ZBNWljWUAAccpsCVExB49NUpHzn_JGHMCQz0ypNrO9yZfsCaaVAPUVpQI9xaRgVkg69eC98LJLcNp64p9fOT_xRTGbLSAcfXSMfa-45ok6eDb5xU5yhSGg1Mbp6GnMLhRTLcPNM4_9iNfHbQcYlHIylaR-9feh-sQKFsl48FlMxfqsPKdK2S_Z8O6T0VR9jfsj5KDb6SQ4LNyFv50iJ4yqZHMNFHt-JD-SODTHVp6n7vQO0dzRypSokGxe29LnEf31UtsHL7KgjAr4i_yomblKMVReUBdF0dkO5UUsijtVcIm6FaGrCAw3xpUBdPMh1BEt7jhIsHcNrmZ7Cj0LFx0G3G29mklBEnKLVs5CDcCdSG49wyyZJmQqxSwUpJz7TXpfEtUtJcbicXj6c1MNke6FWdxzJQDVah5Dm5FwRb8HHTnJWb3RNO2Ly7iK-wvaYC1Ff6ysCSWb0cr76LQGs6FdPmN2HNHne00EMaq45WTJORWL5eY9iPd5QbbpIrCiJlvlD-cX9O1yFL7f6fHmnrXHNWo3PvWqIrFuoxNw5RzoWBjsH6XyG3qNoZ8OGwYu32BTP4VoeI4MX148f5_D2ZX7EnjLAta-iZCOfKllYjsKfaWNveGoX5j6YVh1uhMyLAgoQxtjow8EX3rQWQKEUzFM36_ekmdG-g5tUIDdICrY870009ROad-UhWQQO0blpSOADJzEMWE9a7wg69iok0qOcl0zg4qu_mlAj7ZBeNyT8as_oHWNSfadD35Q2drzq56JP4jrSVTXbjoXbyUl0TNiL40WGgrGJx763v_cxdeuyriZxs8LRYYo-O_H5IfuT1YtWr0w-A2KJJE27hvN701SgtU5onUlgS45vy42tGrbFIU4rjVJI-sEcyLhFMkQbgkGFXNc7cImhhc2pbYK4wZiRzopT5Z6qtPJowMEe_E0KE8oQ8-41jfBmduZhOJ1l7baMD0s81ed_4LOgrLVaShJHU6gnZmnjRD76-qVOeBtR3p7Oo90OcXGYW3PgC3L96pDj9XGg55FhRGs_Us12eb3jO2VbYntyzlpjptQ0ts_-J5xQHgyCYLSUmsSDwoUuQlYEqX7TlXxRTwA_7GtXYLOwcgiV3KWRS4PGSOJrJSoz4CVYa5vgEGl1dlFHi1BMmc_Vd4xpuiY3h9fxwF-4iv2B9uXdoZ5OgzEehsAIItg1aDPzSzrWbmaezXIowZi4eJHcGmsFj8LgOM3p5uj6xprQKO_l1w4t4hudfLh-StrH_uA2DPLYeeMrdmWjPb52l6aE6ZNsoi1Hi7OOsuOatintO_kmtc8drfDAlvEslw7I18qdUomJ7o05wRzn_yDSGeUrsEUacO7wTKiWqLpH_kLxyIGZlMDKHUG9tCWdwsRmmhvZFDYCgYnJmsXNBweYyH7Jjo1xrDzL2g6ZTbgFO8Urjkl8_UKYPzF8dJOQMeBjLajVIBVeDyQPVI1a9304BGNSvyJTIw_fMyMRnkmRU5nv2vaBjtE5v65u0zrJWjPzSwdyhpT4NXfI0SN38dKso1xjLMjRQXHcxCzhN2p-ELgKyvaXk5f6Kf3Cho314czi0jnbKnrZM16RIZ73cKDXHU2lpzZet9PNyW2QJxLKtQ870soCpKVJ-e3VXkbNxXUHahOS3PS_9PTgYcqJg8Z6TTkqPIe05VTeAEPm1pJb2pGOr3ujY_FkmnrI_NKamh-2oFTixepe9SFAhzbQxmTE0ecENmRGv7ssNflZRTSrDcxERlW826bjTpk7uXgJWyBaYGUDpFUn6kbR20yMRlLvyxtFRsHdLD6C0HUJqTxY_ZDIxrimFUvvlY_UZ7Mh1RYyRUyz8ARUnn25DF5PFjeJXXuA4Le7lhr6i8whPORZeNHtbhgExiKtXQt_fDWwByIL8gQPGgSJhPgJEnbJPQjX1GAzWJpfsS4_g1wWWfgJmROOfeGdRmSBhpoHpYlupm4xe2TLzc9T2D_ZpQPcKkgUYs5vDMi1KvkVPonyNgmOMShZnY89NlI42hCmr8i342a0H5yrzeaMz96vbLEi7NAmCzFE5kDv4nTna0NmUM7ZiB6tcrYBsM8bfGAkWhBePM_Yob2fIfKE_0zsWTM5Pw-NDH90hRai62bvg7joLASW2qpg3get4zvN22lJ7WPmKw_4XOCsxG1-G3LGHq-O6CdmiHFvrZpi1QHMz74asxBpjH3LE_ZSHedwxrTJ9DWx8nS4P4qLp-wTPlIO_o91Kw305MEN3MqVqEXXTjdDS9U4kw53nMsx40j6vJBoiEsOrU9H-5opMyIjZLJ8ex6qiycCcFStJ1cu0nHt5oHHvRFTDPzB6dgaPX0QdYXaPl5x_Pa1XK6JDdHVMZ08iQOcX312X1aPyT7O91XAGK0bkmV05XjoHbMx1VAiygRBEV9RaBNOEZ9z9A0_A1Fz-ONI3GZI6i8C6ttZZg7B7H6trgj58Vgs9ODCe29J0dRGPXqXAOqixCWdK2bU22iCmFRJ1IBhD7tvY7P-0EVHrvDxyICT8BdNpoOKF5gk-s4jT2X7HVeRcG7-FcBWt_hdNf3lvQYIn0j5e4Z1ufCDeIcu5084pM8XulMSmUonrGrUvko_Uxi81l7IZxpF7X5P5zEIBaEAES6F9YnDkGe4SqSl_C-t6bOj_Rzrs4OLGyM2XvyyIwLbLux6rqJtwvRGgmZ-t0OkHVEF2BLnesStV6COKBJwMH5y-t_giEWqf8FLeiixMD06pXvv7BMFHDQ579uHXZRhyC6vkBZceltZfBocZVEl-ECTlgVA7nN7avCPlDlh67U7KVkVVlWEpvJXb5g2T9I-45pJpIip4WqVUrwcPeZx9dRLUiBio6b5pXpnnhuG4f2jXg99Ftqo2q9DBw</script>
 <script>
 (function () {
   'use strict';
@@ -241,6 +243,7 @@ th:first-child, td:first-child { position: sticky; left: 0; background: var(--su
     return j + ' à ' + h;
   }
   function jourMois(iso) { return new Date(iso + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', timeZone: 'Europe/Paris' }); }
+  function jourLong(iso) { return new Date(iso + 'T12:00:00').toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Europe/Paris' }); }
   function jourMoisCourt(iso) { return new Date(iso + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', timeZone: 'Europe/Paris' }); }
   function semaineNo(lancement, du) { return Math.floor((new Date(du + 'T12:00:00') - new Date(lancement + 'T12:00:00')) / 6048e5) + 1; }
 
@@ -280,12 +283,13 @@ th:first-child, td:first-child { position: sticky; left: 0; background: var(--su
   function moins(a, b) { var d = {}; CHAMPS.forEach(function (c) { d[c] = (a[c] || 0) - ((b && b[c]) || 0); }); return d; }
 
   function iconeEtat(niveau) {
+    if (niveau === 'attente') return '<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="var(--muted)" stroke-width="1.5"/><path d="M8 4.8V8l2.2 1.4" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-linecap="round"/></svg>';
     if (niveau === 'ok') return '<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="var(--good)"/><path d="M4.6 8.3l2.2 2.2 4.6-4.8" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     if (niveau === 'vig') return '<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.2l7 13H1z" fill="var(--warn)"/><path d="M8 6v3.6" stroke="#3a2a00" stroke-width="1.6" stroke-linecap="round"/><circle cx="8" cy="11.8" r="0.9" fill="#3a2a00"/></svg>';
     return '<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="3" fill="var(--crit)"/><path d="M5.5 5.5l5 5M10.5 5.5l-5 5" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/></svg>';
   }
   function niveau(taux, seuilOk, seuilVig) { return taux <= seuilOk ? 'ok' : taux <= seuilVig ? 'vig' : 'alerte'; }
-  var MOT = { ok: 'Bon', vig: 'À surveiller', alerte: 'Alerte' };
+  var MOT = { ok: 'Bon', vig: 'À surveiller', alerte: 'Alerte', attente: 'En attente' };
 
   var DERNIERES = null, LARGEUR = 0, minuterie = null;
   window.addEventListener('resize', function () {
@@ -299,16 +303,17 @@ th:first-child, td:first-child { position: sticky; left: 0; background: var(--su
     DERNIERES = D; LARGEUR = window.innerWidth;
     document.title = 'Suivi · ' + D.client + ' · ' + D.titre;
     var listes = D.listes, releves = D.releves.slice().sort(function (a, b) { return a.date < b.date ? -1 : 1; });
-    var dernier = releves[releves.length - 1], avant = releves.length > 1 ? releves[releves.length - 2] : null;
+    var attente = !releves.length;
+    var dernier = attente ? { date: D.maj, du: D.lancement, au: D.lancement, listes: {} } : releves[releves.length - 1], avant = releves.length > 1 ? releves[releves.length - 2] : null;
     var total = listes.reduce(function (s, l) { return s + l.total; }, 0);
     var cum = somme(listes, dernier), prec = avant ? somme(listes, avant) : null, sem = moins(cum, prec);
-    var noSem = semaineNo(D.lancement, dernier.du);
+    var noSem = attente ? 0 : semaineNo(D.lancement, dernier.du);
     var h = [];
 
-    if (D.test) h.push('<div class="bandeau-test" role="note">Données de test, fictives : ce ne sont pas les chiffres de la campagne.</div>');
+    if (D.test) h.push('<div class="bandeau-test" role="note">' + esc(D.bandeau || 'Données de test, fictives : ce ne sont pas les chiffres de la campagne.') + '</div>');
 
     h.push('<header class="tete"><div><p class="sur">' + esc(D.client) + ' × Permea</p><h1>' + esc(D.titre) + ' · tableau de suivi</h1>' +
-      '<p class="maj">Mis à jour le ' + esc(dateLongue(dernier.date)) + '<br>Semaine ' + noSem + ' du lancement, du ' + esc(jourMois(dernier.du)) + ' au ' + esc(jourMois(dernier.au)) + '</p></div>' +
+      '<p class="maj">Mis à jour le ' + esc(dateLongue(dernier.date)) + '<br>' + (attente ? 'Premiers envois le ' + esc(jourLong(D.lancement)) + ' · premiers chiffres le ' + esc(jourLong(D.premier_releve)) : 'Semaine ' + noSem + ' du lancement, du ' + esc(jourMois(dernier.du)) + ' au ' + esc(jourMois(dernier.au))) + '</p></div>' +
       '<button class="bouton" type="button" id="imprimer">Enregistrer en PDF</button></header>');
 
     if (D.en_bref) h.push('<section class="carte bref"><p class="lbl">En bref</p><p class="texte">' + esc(D.en_bref) + '</p></section>');
@@ -320,16 +325,17 @@ th:first-child, td:first-child { position: sticky; left: 0; background: var(--su
       '<div class="jauge" role="img" aria-label="' + n(cum.contactees) + ' entreprises contactées sur ' + n(total) + '"><span style="width:' + (100 * part).toFixed(1) + '%"></span></div>' +
       '<p class="hero-s">' + pct(cum.contactees, total) + ' de la liste' + (prec ? ' · +' + n(sem.contactees) + ' cette semaine' : '') + '</p></div>' +
       '<div class="tuiles">' +
-      tuile('Messages envoyés', cum.messages, prec ? '+' + n(sem.messages) + ' cette semaine' : 'relances comprises') +
-      tuile('Réponses', cum.reponses, prec ? '+' + n(sem.reponses) + ' cette semaine' : pct(cum.reponses, cum.contactees) + ' des contactées') +
-      tuile('Réponses positives', cum.positives, prec ? '+' + n(sem.positives) + ' cette semaine' : pct(cum.positives, cum.contactees) + ' des contactées') +
-      tuile('Rendez-vous', cum.rdv, prec ? '+' + n(sem.rdv) + ' cette semaine' : 'pris pour ' + esc(D.client)) +
+      tuile('Messages envoyés', cum.messages, attente ? 'à venir' : prec ? '+' + n(sem.messages) + ' cette semaine' : 'relances comprises') +
+      tuile('Réponses', cum.reponses, attente ? 'à venir' : prec ? '+' + n(sem.reponses) + ' cette semaine' : pct(cum.reponses, cum.contactees) + ' des contactées') +
+      tuile('Réponses positives', cum.positives, attente ? 'à venir' : prec ? '+' + n(sem.positives) + ' cette semaine' : pct(cum.positives, cum.contactees) + ' des contactées') +
+      tuile('Rendez-vous', cum.rdv, attente ? 'à venir' : prec ? '+' + n(sem.rdv) + ' cette semaine' : 'pris pour ' + esc(D.client)) +
       '</div></div>');
     var tr = cum.messages ? 100 * cum.rebonds / cum.messages : 0, td = cum.contactees ? 100 * cum.desinscriptions / cum.contactees : 0;
-    var nr = niveau(tr, 2, 5), nd = niveau(td, 2, 5);
+    var nr = cum.messages ? niveau(tr, 2, 5) : 'attente', nd = cum.contactees ? niveau(td, 2, 5) : 'attente';
+    var rienParti = 'Aucun message envoyé pour l\'instant. ';
     h.push('<div class="sante">' +
-      '<div class="etat">' + iconeEtat(nr) + '<div><p class="t">Rebonds : ' + n(cum.rebonds) + ' <span class="' + nr + '">· ' + MOT[nr] + '</span></p><p class="s">' + pct(cum.rebonds, cum.messages) + ' des messages. Repère : moins de 2 %, adresses vérifiées avant envoi.</p></div></div>' +
-      '<div class="etat">' + iconeEtat(nd) + '<div><p class="t">Désinscriptions : ' + n(cum.desinscriptions) + ' <span class="' + nd + '">· ' + MOT[nd] + '</span></p><p class="s">' + pct(cum.desinscriptions, cum.contactees) + ' des contactées. Retrait définitif, dans la journée.</p></div></div>' +
+      '<div class="etat">' + iconeEtat(nr) + '<div><p class="t">Rebonds : ' + n(cum.rebonds) + ' <span class="' + nr + '">· ' + MOT[nr] + '</span></p><p class="s">' + (nr === 'attente' ? rienParti : pct(cum.rebonds, cum.messages) + ' des messages. ') + 'Repère : moins de 2 %, adresses vérifiées avant envoi.</p></div></div>' +
+      '<div class="etat">' + iconeEtat(nd) + '<div><p class="t">Désinscriptions : ' + n(cum.desinscriptions) + ' <span class="' + nd + '">· ' + MOT[nd] + '</span></p><p class="s">' + (nd === 'attente' ? rienParti : pct(cum.desinscriptions, cum.contactees) + ' des contactées. ') + 'Retrait définitif, dans la journée.</p></div></div>' +
       '</div></section>');
 
     // Listes
@@ -361,12 +367,15 @@ th:first-child, td:first-child { position: sticky; left: 0; background: var(--su
     });
     h.push('<section class="carte" aria-labelledby="t-sem"><h2 class="section-titre" id="t-sem">Semaine par semaine</h2>' +
       '<p class="section-intro">Ce qui s\'est passé chaque semaine (envois du mardi au jeudi, de 8h30 à midi).</p>');
+    if (attente) h.push('<p class="vide">Le premier relevé arrive le ' + esc(jourLong(D.premier_releve)) + '.</p></section>');
+    else {
     if (lignes.length >= 2) h.push('<div class="graphe">' + graphe(lignes) + '</div>');
     h.push('<p class="glisser">Faites glisser le tableau vers la gauche pour voir toutes les colonnes.</p><div class="tableau-wrap"><table><thead><tr><th scope="col">Semaine</th><th scope="col">Contactées</th><th scope="col">Messages</th><th scope="col">Réponses</th><th scope="col">Positives</th><th scope="col">Rendez-vous</th><th scope="col">Rebonds</th><th scope="col">Désinscriptions</th></tr></thead><tbody>');
     lignes.forEach(function (L) {
       h.push('<tr><td>S' + L.no + ' · ' + esc(jourMoisCourt(L.rel.du)) + ' au ' + esc(jourMoisCourt(L.rel.au)) + '</td>' + CHAMPS_ORDRE().map(function (c) { return '<td>' + n(L.d[c]) + '</td>'; }).join('') + '</tr>');
     });
     h.push('</tbody>' + (lignes.length >= 2 ? '<tfoot><tr><td>Total</td>' + CHAMPS_ORDRE().map(function (c) { return '<td>' + n(cum[c]) + '</td>'; }).join('') + '</tr></tfoot>' : '') + '</table></div></section>');
+    }
 
     // Valeur
     var prix = D.repere.prix_technicien_mois, an = prix * 12, sig = D.signes || { clients: 0, techniciens: 0 };
